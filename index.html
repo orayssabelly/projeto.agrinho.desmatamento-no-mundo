@@ -1,127 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Desmatamento no Mundo</title>
-        <style>
-            body {
-                  margin: 0;
-                        font-family: 'Segoe UI', sans-serif;
-                              background-color: #f0fff0; /* Verde claro */
-                                    color: #333;
-                                        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desmatamento no Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Desmatamento no Brasil</h1>
+        <nav>
+            <ul>
+                <li><a href="#causas">Causas</a></li>
+                <li><a href="#consequencias">Consequências</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                                            header {
-                                                  background-color: #90ee90; /* Verde mais forte */
-                                                        padding: 30px 20px;
-                                                              text-align: center;
-                                                                    color: white;
-                                                                        }
+    <main>
+        <section id="introducao">
+            <h2>Introdução</h2>
+            <p>O desmatamento é a remoção da vegetação natural, especialmente em florestas tropicais como a Amazônia. Esse processo tem impacto direto no equilíbrio ambiental e climático do planeta.</p>
+        </section>
 
-                                                                            header h1 {
-                                                                                  margin: 0;
-                                                                                        font-size: 2.5em;
-                                                                                            }
+        <section id="causas">
+            <h2>Causas do Desmatamento</h2>
+            <ul>
+                <li>Expansão agropecuária</li>
+                <li>Exploração madeireira ilegal</li>
+                <li>Mineração</li>
+                <li>Construção de estradas</li>
+            </ul>
+        </section>
 
-                                                                                                main {
-                                                                                                      max-width: 900px;
-                                                                                                            margin: 30px auto;
-                                                                                                                  background: white;
-                                                                                                                        padding: 40px 30px;
-                                                                                                                              border-radius: 10px;
-                                                                                                                                    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-                                                                                                                                        }
+        <section id="consequencias">
+            <h2>Consequências</h2>
+            <p>O desmatamento contribui para:</p>
+            <ol>
+                <li>Perda da biodiversidade</li>
+                <li>Emissões de gases de efeito estufa</li>
+                <li>Alterações climáticas</li>
+                <li>Deslocamento de populações indígenas</li>
+            </ol>
+        </section>
 
-                                                                                                                                            section {
-                                                                                                                                                  margin-bottom: 30px;
-                                                                                                                                                      }
+        <section id="solucoes">
+            <h2>Soluções e Alternativas</h2>
+            <p>Algumas soluções possíveis incluem:</p>
+            <ul>
+                <li>Reflorestamento</li>
+                <li>Fiscalização e leis ambientais mais rigorosas</li>
+                <li>Uso sustentável dos recursos naturais</li>
+                <li>Educação ambiental</li>
+            </ul>
+        </section>
+    </main>
 
-                                                                                                                                                          h2 {
-                                                                                                                                                                color: #2e8b57;
-                                                                                                                                                                    }
-
-                                                                                                                                                                        ul {
-                                                                                                                                                                              padding-left: 20px;
-                                                                                                                                                                                  }
-
-                                                                                                                                                                                      a.botao {
-                                                                                                                                                                                            display: inline-block;
-                                                                                                                                                                                                  padding: 12px 20px;
-                                                                                                                                                                                                        background-color: #2e8b57;
-                                                                                                                                                                                                              color: white;
-                                                                                                                                                                                                                    text-decoration: none;
-                                                                                                                                                                                                                          border-radius: 6px;
-                                                                                                                                                                                                                                transition: background-color 0.3s ease;
-                                                                                                                                                                                                                                    }
-
-                                                                                                                                                                                                                                        a.botao:hover {
-                                                                                                                                                                                                                                              background-color: #246b45;
-                                                                                                                                                                                                                                                  }
-
-                                                                                                                                                                                                                                                      footer {
-                                                                                                                                                                                                                                                            text-align: center;
-                                                                                                                                                                                                                                                                  padding: 20px;
-                                                                                                                                                                                                                                                                        background-color: #90ee90;
-                                                                                                                                                                                                                                                                              color: white;
-                                                                                                                                                                                                                                                                                    margin-top: 40px;
-                                                                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                                                                          </style>
-                                                                                                                                                                                                                                                                                          </head>
-                                                                                                                                                                                                                                                                                          <body>
-
-                                                                                                                                                                                                                                                                                          <header>
-                                                                                                                                                                                                                                                                                            <h1>Desmatamento no Mundo</h1>
-                                                                                                                                                                                                                                                                                            </header>
-
-                                                                                                                                                                                                                                                                                            <main>
-                                                                                                                                                                                                                                                                                              <section>
-                                                                                                                                                                                                                                                                                                  <h2>O que é o Desmatamento?</h2>
-                                                                                                                                                                                                                                                                                                      <p>Desmatamento é o processo de remoção das florestas ou vegetações nativas de uma região, principalmente para atividades humanas como agricultura, pecuária e urbanização.</p>
-                                                                                                                                                                                                                                                                                                        </section>
-
-                                                                                                                                                                                                                                                                                                          <section>
-                                                                                                                                                                                                                                                                                                              <h2>Causas do Desmatamento</h2>
-                                                                                                                                                                                                                                                                                                                  <ul>
-                                                                                                                                                                                                                                                                                                                        <li>Expansão da agropecuária</li>
-                                                                                                                                                                                                                                                                                                                              <li>Extração de madeira</li>
-                                                                                                                                                                                                                                                                                                                                    <li>Mineração</li>
-                                                                                                                                                                                                                                                                                                                                          <li>Construção de estradas</li>
-                                                                                                                                                                                                                                                                                                                                                <li>Urbanização descontrolada</li>
-                                                                                                                                                                                                                                                                                                                                                    </ul>
-                                                                                                                                                                                                                                                                                                                                                      </section>
-
-                                                                                                                                                                                                                                                                                                                                                        <section>
-                                                                                                                                                                                                                                                                                                                                                            <h2>Impactos Ambientais</h2>
-                                                                                                                                                                                                                                                                                                                                                                <ul>
-                                                                                                                                                                                                                                                                                                                                                                      <li>Perda da biodiversidade</li>
-                                                                                                                                                                                                                                                                                                                                                                            <li>Emissões de gases do efeito estufa</li>
-                                                                                                                                                                                                                                                                                                                                                                                  <li>Alterações climáticas</li>
-                                                                                                                                                                                                                                                                                                                                                                                        <li>Desequilíbrio nos ecossistemas</li>
-                                                                                                                                                                                                                                                                                                                                                                                              <li>Destruição de habitats naturais</li>
-                                                                                                                                                                                                                                                                                                                                                                                                  </ul>
-                                                                                                                                                                                                                                                                                                                                                                                                    </section>
-
-                                                                                                                                                                                                                                                                                                                                                                                                      <section>
-                                                                                                                                                                                                                                                                                                                                                                                                          <h2>Como Ajudar?</h2>
-                                                                                                                                                                                                                                                                                                                                                                                                              <ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                    <li>Consumir produtos sustentáveis</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                          <li>Reduzir o consumo de carne</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                <li>Reutilizar, reciclar e reduzir o consumo</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                      <li>Apoiar ONGs ambientais</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>Participar de ações de reflorestamento</li>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                </ul>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                  </section>
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div style="text-align: center; margin-top: 30px;">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="https://www.wwf.org.br/natureza_brasileira/questoes_ambientais/desmatamento/" target="_blank" class="botao">Saiba Mais</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                          </main>
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                          <footer>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p>&copy; 2025 - Informativo sobre Desmatamento Global</p>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            </footer>
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            </body>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    <footer>
+        <p>© 2025 - Projeto de Conscientização Ambiental</p>
+    </footer>
+</body>
+</html>
